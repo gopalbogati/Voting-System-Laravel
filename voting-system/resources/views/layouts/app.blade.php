@@ -18,7 +18,7 @@
     </head>
     <body class="font-sans bg-gray-background text-gray-900 text-sm">
         <header class="flex item-center justify-between px-8 py-4">
-            <a href="#"><img src="{{asset('img/logo.png')}}" alt="logo"></a>
+            <a href="#"><img src="{{asset('img/logo.png')}}" width="30" height="30" alt="logo"></a>
             <div class="flex item-center">
                  @if (Route::has('login'))
                 <div class="px-6 py-4">
@@ -48,6 +48,25 @@
             </div>
 
         </header>
-        
+        <main class="container mx-auto mx-w-custom flex" >
+            <div class="w-70 mr-5">
+              ADD IDEA FORM. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+quia. 
+            </div>
+<div class="w-175">
+    <nav class="flex item-center justify-between text-xs">
+        <ul class="flex uppercase font-semibold space-x-10">
+            <li><a href="#" class="">All Ideas(88)</li>
+
+        </ul>
+
+    </nav>
+</div>        
     </body>
 </html>
