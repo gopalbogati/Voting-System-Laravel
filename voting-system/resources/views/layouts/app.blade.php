@@ -62,9 +62,9 @@ quia.
 <div class="w-175">
     <nav class="flex item-center justify-between text-xs">
         <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
-            <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">All Ideas(88)</li>
+            <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">AllIdeas(88)</li>
             <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Considering(6)</li> 
-            <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">In Progress(1)</li> 
+            <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">InProgress(1)</li> 
          </ul>
 
 
@@ -75,17 +75,11 @@ quia.
            
          </ul>
 
-      {{-- <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
-
-            <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Implemented(10)</li> 
-            <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Closed(55)</li> 
-       
-        </ul>
-          --}}
-
-        
-
     </nav>
+
+    <div class="mt-8">
+        {{$slot}}
+    </div>
 </div>        
     </body>
 </html>
